@@ -57,9 +57,19 @@ namespace OOPS_CLASS
             // Inheritance
             Console.WriteLine("--------Inheritance-------");
             CarInhert carinher = new CarInhert();
-            
             carinher.start();
             Console.WriteLine("Series of Car :" + carinher.model);
+
+
+            // Polymorphism
+            Console.WriteLine("--------Polymorphism-------");
+            VehiclesPoly vehiclepoly = new VehiclesPoly();
+            vehiclepoly.Horn();
+            Buses bus = new Buses();
+            bus.Horn();
+            Cars car = new Cars();
+            car.Horn();
+
             Console.ReadLine();
 
             }

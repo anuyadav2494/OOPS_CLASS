@@ -58,4 +58,27 @@ namespace OOPS_CLASS
         public string model = "A series";
     }
 
+   class VehiclesPoly
+    {
+        public void Horn()
+        {
+            Console.WriteLine("All vehicles horn");
+        }
+    }
+    class Cars : VehiclesPoly
+    {
+        public void Horn()
+        {
+            Console.WriteLine("All Cars horn");
+        }
+
+    }
+    class Buses : VehiclesPoly
+    {
+        public void Horn()
+        {
+            Console.WriteLine("All Buses horn");
+        }
+
+    }
 }

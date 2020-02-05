@@ -45,4 +45,17 @@ namespace OOPS_CLASS
 
 
     }
+    class Vehicle
+    {
+        public string brand = "BMW";
+        public void start()
+        {
+            Console.WriteLine("Car is started");
+        }
+    }
+    class CarInhert : Vehicle
+    {
+        public string model = "A series";
+    }
+
 }

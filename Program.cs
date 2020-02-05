@@ -48,10 +48,18 @@ namespace OOPS_CLASS
 
 
             //Properties
+            Console.WriteLine("--------Properties--------");
             CarProperties carprop = new CarProperties();
             carprop.Name = "Benz";
             Console.WriteLine("Name is :" + carprop.Name);
-            Console.WriteLine("Adding to git");
+
+
+            // Inheritance
+            Console.WriteLine("--------Inheritance-------");
+            CarInhert carinher = new CarInhert();
+            
+            carinher.start();
+            Console.WriteLine("Series of Car :" + carinher.model);
             Console.ReadLine();
 
             }

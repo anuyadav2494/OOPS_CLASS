@@ -51,6 +51,7 @@ namespace OOPS_CLASS
             CarProperties carprop = new CarProperties();
             carprop.Name = "Benz";
             Console.WriteLine("Name is :" + carprop.Name);
+            Console.WriteLine("Adding to git");
             Console.ReadLine();
 
             }
